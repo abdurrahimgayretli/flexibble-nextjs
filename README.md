@@ -1,22 +1,26 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Configuring
 
-First, run the development server:
+Edit a .env files ([.env.example](https://github.com/abdurrahimgayretli/flexibble-nextjs/blob/master/.env.example), [grafbase/.env.example](https://github.com/abdurrahimgayretli/flexibble-nextjs/blob/master/grafbase/.env.example) to '.env' and fill in the options)
+
+## Running locally in development mode
+
+To get started, just clone the repository and run `npm install && npm run dev`:
 
 ```bash
+git clone https://github.com/abdurrahimgayretli/flexibble-nextjs.git
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+
+and open to Split Terminal for run grafhql
+
+```bash
+npx grafbase@0.24 dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
